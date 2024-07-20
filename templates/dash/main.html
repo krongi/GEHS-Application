@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Main{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+
+
+<div>
+<ul>{{ tickets[0] }}</ul>
+<ul>{{ tickets[1] }}</ul>
+<ul>{{ tickets[2] }}</ul>
+<ul>{{ tickets[3] }}</ul>
+<ul>{{ tickets[4] }}</ul>
+<ul>{{ tickets[5] }}</ul>
+<ul>{{ tickets[6] }}</ul>
+<ul>{{ tickets[7] }}</ul>
+<ul>{{ tickets[8] }}</ul>
+<ul>{{ tickets[0] }}</ul>
+</div>
+  <!-- <form method="post">
+    <label for="username">Username</label>
+    <input name="username" id="username" required>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" required>
+    <input type="submit" value="Register">
+  </form> -->
+{% endblock %}
